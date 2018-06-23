@@ -17,4 +17,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/tweets/index', 'TweetsController@index')->name('index');
+Route::get('/tweets/create', 'TweetsController@create')->name('create');;
+Route::post('/tweets/store', 'TweetsController@store')->name('store');

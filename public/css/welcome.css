@@ -1,0 +1,29 @@
+
+
+.jumbotron-extend {
+    background-color: transparent;
+    position: relative;
+    height: 80vh;
+}
+
+#logo {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    
+}
+
+#logo h1 {
+    line-height: 1em;
+}
+nav ul {
+    right: 3%;
+    
+}
+.row p{
+  text-align: justify;  
+}
+
+.navbar-extend {
+    background-color: transparent;
+}
